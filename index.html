@@ -5,26 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Golden Lens Photography | Real Estate Photographer in Plainfield, IL</title>
   <meta name="description" content="Golden Lens Photography delivers stunning, detail-oriented real estate photos in Plainfield, IL and surrounding areas. Call (630) 802-3006.">
+  <meta name="theme-color" content="#15120e">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Golden Lens Photography | Real Estate Photographer in Plainfield, IL">
+  <meta property="og:description" content="Detail-oriented real estate photography for agents, builders and homeowners.">
+  <meta property="og:image" content="fd3fd06932b7f9a804c092843c63d535.webp">
   <link rel="icon" href="logo.webp" type="image/webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Photographer","name":"Golden Lens Photography","telephone":"+1-630-802-3006","email":"glxcy16@gmail.com","image":"fd3fd06932b7f9a804c092843c63d535.webp","address":{"@type":"PostalAddress","streetAddress":"Douglas Drive","addressLocality":"Plainfield","addressRegion":"IL","postalCode":"60585","addressCountry":"US"}}
+  </script>
 </head>
 <body>
+  <a class="skip" href="#about">Skip to content</a>
   <header class="site-header" id="header">
     <div class="container nav">
       <a href="#top" class="brand" aria-label="Golden Lens Photography home">
-        <img src="logo.webp" alt="Golden Lens Photography logo" width="48" height="48">
+        <img src="logo.webp" alt="" width="44" height="44">
         <span>Golden Lens</span>
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
         <span></span><span></span><span></span>
       </button>
-      <nav id="navMenu" class="nav-menu">
+      <nav id="navMenu" class="nav-menu" aria-label="Main">
         <a href="#about">About</a>
-        <a href="#gallery">Portfolio</a>
         <a href="#services">Why Us</a>
+        <a href="#gallery">Portfolio</a>
+        <a href="#contact">Contact</a>
         <a href="#contact" class="btn btn-small">Book a Shoot</a>
       </nav>
     </div>
@@ -32,8 +42,9 @@
 
   <main id="top">
     <section class="hero">
-      <img class="hero-img" src="fd3fd06932b7f9a804c092843c63d535.webp" alt="Bright two-story living room with a staircase and large windows">
+      <img class="hero-img" src="fd3fd06932b7f9a804c092843c63d535.webp" alt="Bright two-story living room with a staircase and large windows" fetchpriority="high">
       <div class="hero-overlay"></div>
+      <div class="hero-frame" aria-hidden="true"><i></i><i></i><i></i><i></i><span>REAL ESTATE &middot; 01 / 05</span></div>
       <div class="container hero-content">
         <p class="eyebrow">Real Estate Photography &middot; Plainfield, IL</p>
         <h1>Photos that make listings <em>shine</em>.</h1>
@@ -42,6 +53,11 @@
           <a href="#contact" class="btn">Book a Shoot</a>
           <a href="#gallery" class="btn btn-ghost">View Portfolio</a>
         </div>
+        <ul class="hero-meta">
+          <li>Agents</li>
+          <li>Builders</li>
+          <li>Homeowners</li>
+        </ul>
       </div>
     </section>
 
@@ -51,35 +67,40 @@
           <img src="5d446e7ea47b47fdaaf1b38d829d8d0a.webp" alt="Modern home patio at dusk with large glass doors" loading="lazy">
         </div>
         <div>
-          <p class="eyebrow">Our Story</p>
-          <h2>Passion for photography, built for real estate</h2>
+          <p class="eyebrow" data-n="01">Our Story</p>
+          <h2>Passion for photography, <em>built for real estate</em></h2>
           <blockquote>
             I started Golden Lens Photography to combine my passion for photography with the growing demand for high-quality real estate imagery. Recognizing the pivotal role of visuals in attracting buyers and elevating property listings, I wanted to provide real estate professionals with stunning, detail-oriented photos that capture the true essence of a property and help them succeed in a competitive market.
           </blockquote>
-          <p class="muted">Serving agents, builders and homeowners from Plainfield, Illinois.</p>
+          <ul class="sign">
+            <li>Plainfield, Illinois</li>
+            <li>Agents</li>
+            <li>Builders</li>
+            <li>Homeowners</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="section section-dark" id="services">
       <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Why Golden Lens</p>
-          <h2>Visuals that attract buyers</h2>
+        <div class="section-head center reveal">
+          <p class="eyebrow" data-n="02">Why Golden Lens</p>
+          <h2>Visuals that <em>attract buyers</em></h2>
         </div>
         <div class="cards">
           <article class="card reveal">
-            <div class="icon" aria-hidden="true">&#9728;</div>
+            <span class="num" aria-hidden="true">I</span>
             <h3>Detail-Oriented</h3>
             <p>Every room, angle and light source is considered so the property looks its absolute best.</p>
           </article>
           <article class="card reveal">
-            <div class="icon" aria-hidden="true">&#9733;</div>
+            <span class="num" aria-hidden="true">II</span>
             <h3>True to the Property</h3>
             <p>Imagery that captures the genuine essence of a home, helping buyers connect from the first click.</p>
           </article>
           <article class="card reveal">
-            <div class="icon" aria-hidden="true">&#8599;</div>
+            <span class="num" aria-hidden="true">III</span>
             <h3>Competitive Edge</h3>
             <p>High-quality visuals elevate your listing and help you succeed in a competitive market.</p>
           </article>
@@ -90,15 +111,15 @@
     <section class="section" id="gallery">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Portfolio</p>
-          <h2>Recent work</h2>
+          <p class="eyebrow" data-n="03">Portfolio</p>
+          <h2>Recent <em>work</em></h2>
         </div>
         <div class="gallery">
-          <button class="g-item" data-src="b7c9de031ad269206127226a2a2cb186.webp" aria-label="Open photo 1"><img src="b7c9de031ad269206127226a2a2cb186.webp" alt="Real estate photo 1" loading="lazy"></button>
-          <button class="g-item" data-src="0dbd24aaa2c7891df92e1967c2c9bbc9.webp" aria-label="Open photo 2"><img src="0dbd24aaa2c7891df92e1967c2c9bbc9.webp" alt="Real estate photo 2" loading="lazy"></button>
-          <button class="g-item" data-src="fb6d6758e5d045a3928ea92349051691.webp" aria-label="Open photo 3"><img src="fb6d6758e5d045a3928ea92349051691.webp" alt="Real estate photo 3" loading="lazy"></button>
-          <button class="g-item" data-src="5d446e7ea47b47fdaaf1b38d829d8d0a.webp" aria-label="Open photo 4"><img src="5d446e7ea47b47fdaaf1b38d829d8d0a.webp" alt="Modern home patio at dusk" loading="lazy"></button>
-          <button class="g-item" data-src="fd3fd06932b7f9a804c092843c63d535.webp" aria-label="Open photo 5"><img src="fd3fd06932b7f9a804c092843c63d535.webp" alt="Bright living room with staircase" loading="lazy"></button>
+          <button class="g-item" data-src="b7c9de031ad269206127226a2a2cb186.webp" data-caption="Frame 01" aria-label="Open photo 1 of 5"><img src="b7c9de031ad269206127226a2a2cb186.webp" alt="Real estate interior photo 1" loading="lazy"></button>
+          <button class="g-item" data-src="0dbd24aaa2c7891df92e1967c2c9bbc9.webp" data-caption="Frame 02" aria-label="Open photo 2 of 5"><img src="0dbd24aaa2c7891df92e1967c2c9bbc9.webp" alt="Real estate interior photo 2" loading="lazy"></button>
+          <button class="g-item" data-src="fb6d6758e5d045a3928ea92349051691.webp" data-caption="Frame 03" aria-label="Open photo 3 of 5"><img src="fb6d6758e5d045a3928ea92349051691.webp" alt="Real estate interior photo 3" loading="lazy"></button>
+          <button class="g-item" data-src="5d446e7ea47b47fdaaf1b38d829d8d0a.webp" data-caption="Patio at dusk" aria-label="Open photo 4 of 5"><img src="5d446e7ea47b47fdaaf1b38d829d8d0a.webp" alt="Modern home patio at dusk" loading="lazy"></button>
+          <button class="g-item" data-src="fd3fd06932b7f9a804c092843c63d535.webp" data-caption="Living room" aria-label="Open photo 5 of 5"><img src="fd3fd06932b7f9a804c092843c63d535.webp" alt="Bright living room with staircase" loading="lazy"></button>
         </div>
       </div>
     </section>
@@ -106,8 +127,8 @@
     <section class="section section-dark" id="contact">
       <div class="container contact">
         <div class="reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Let's showcase your next listing</h2>
+          <p class="eyebrow" data-n="04">Contact</p>
+          <h2>Let's showcase <em>your next listing</em></h2>
           <ul class="contact-list">
             <li><strong>Phone</strong><a href="tel:+16308023006">(630) 802-3006</a></li>
             <li><strong>Email</strong><a href="mailto:glxcy16@gmail.com">glxcy16@gmail.com</a></li>
@@ -116,13 +137,16 @@
         </div>
         <form id="contactForm" class="form reveal" novalidate>
           <label>Name
-            <input type="text" name="name" required maxlength="100" autocomplete="name">
+            <input type="text" name="name" required maxlength="100" autocomplete="name" aria-describedby="err-name">
+            <span class="field-err" id="err-name"></span>
           </label>
           <label>Email
-            <input type="email" name="email" required maxlength="150" autocomplete="email">
+            <input type="email" name="email" required maxlength="150" autocomplete="email" aria-describedby="err-email">
+            <span class="field-err" id="err-email"></span>
           </label>
           <label>Property address / message
-            <textarea name="message" rows="4" required maxlength="1000"></textarea>
+            <textarea name="message" rows="4" required maxlength="1000" aria-describedby="err-message"></textarea>
+            <span class="field-err" id="err-message"></span>
           </label>
           <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
           <button type="submit" class="btn">Send Request</button>
@@ -133,14 +157,25 @@
 
   <footer class="footer">
     <div class="container">
-      <img src="logo.webp" alt="" width="56" height="56">
-      <p>&copy; <span id="year"></span> Golden Lens Photography &middot; Plainfield, IL</p>
+      <div class="brand-sm">
+        <img src="logo.webp" alt="" width="44" height="44">
+        <span>Golden Lens Photography</span>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#gallery">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p>&copy; <span id="year"></span> Plainfield, IL</p>
     </div>
   </footer>
 
-  <div class="lightbox" id="lightbox" hidden>
-    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-btn lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous photo">&lsaquo;</button>
     <img id="lbImg" alt="">
+    <button class="lb-btn lb-next" id="lbNext" aria-label="Next photo">&rsaquo;</button>
+    <p class="lb-count" id="lbCount" aria-live="polite"></p>
   </div>
 
   <script src="script.js"></script>
